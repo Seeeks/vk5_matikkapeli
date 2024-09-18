@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Math Game</h1>
+        <form>
+            <div>
+                <output id ="num1"></output> + 
+                <output id="num2"></output> = 
+                <input type="number" min="0" max="99">
+            </div>
+            <div>
+                <button type="button" id="calculate">Answer</button>
+            </div>
+            <div>Correct answers: <output id="correctAnswers"></output></div>
+            <div>Incorrect answers: <output id="wrongAnswers"></output></div>
+        </form>
+    </div>
+    <script src="./js/functions.js"></script>
+</body>
+</html>
